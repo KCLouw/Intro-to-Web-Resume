@@ -15,6 +15,7 @@ header {
   width: 100%;
   display: inline-flex;
   background-color: whitesmoke;
+  background-image: image(Promenade Full);
 }
 .sidebar {
   width: 35%;
@@ -86,4 +87,14 @@ a.menu-item:hover {
 .logoContainer > img {
   width: 80px;
   height: 80px;
+}
+
+.additional-pic > picture > img {
+  width: 200px;
+  height: 200px;
+  border-radius: 25%;
+  width: 50%;
+  margin-left: 30%;
+  margin-right: 25%;
+  padding-top: 20px;
 }
