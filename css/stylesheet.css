@@ -98,3 +98,56 @@ a.menu-item:hover {
   margin-right: 25%;
   padding-top: 20px;
 }
+
+@media screen and (max-width:768px) {
+  .logoContainer > img{
+    width: 60px;
+    height: 60px;
+  }
+  .additional-pic > picture > img {
+    width: 150px;
+    height: 150px;
+    border-radius: 25%;
+    width: 50%;
+    margin-left: 30%;
+    margin-right: 25%;
+    padding-top: 20px;
+  }
+  .content-info{
+    font-size: 90%;
+    margin-right: 10px;
+    margin-left: 2%;
+    display: block;
+  }
+  .list-item{
+    margin-right: 20px;
+  }
+  
+}
+@media screen and (max-width:550px) {
+  .sidebar{
+    width: 40%;
+   }
+  .content-info{
+    font-size: 80%;
+    margin-right: 10px;
+    margin-left: 2%;
+    display: block;
+  }
+  .logoContainer > img{
+    width: 40px;
+    height: 40px;
+  }
+  .list-item{
+    margin-right: 40px;
+  }
+  .additional-pic > picture > img {
+    width: 100px;
+    height: 100px;
+    border-radius: 25%;
+    width: 50%;
+    margin-left: 30%;
+    margin-right: 25%;
+    padding-top: 20px;
+  }
+}
