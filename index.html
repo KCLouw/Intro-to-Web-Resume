@@ -5,11 +5,12 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="My Digital Resume">
-        <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="static/css/stylesheet.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     </head>
-    <body>
+    <body class="container">
         <header>
             <hgroup>
                 <h1>Kyle C Louw</h1>
@@ -21,7 +22,7 @@
                 <!--Sidebar-->
                 <div class="sidebar">
                     <!--Profile Image-->
-                    <img src="images/Me-min.jpg" alt="Picture of Kyle Louw" class="profile-img">
+                    <img src="static/images/Me-min.jpg" alt="Picture of Kyle Louw" class="profile-img">
                     <!--Menu-->
                     <div class="menu">
                         <ul class="list">
@@ -37,12 +38,13 @@
                     </div>
                     <div class="additional-pic">
                         <picture>
-                                <source media="(max-width: 650px)" srcset="images/Promenade Face">
-                                <source media="(max-width: 1400px)" srcset="images/Promenade Shoulders">
-                                <img src="images/Promenade Full.jpg" alt="Picture of Kyle Louw on the Promenade">
+                                <source media="(max-width: 650px)" srcset="static/images/Promenade Face.jpg">
+                                <source media="(max-width: 1400px)" srcset="static/images/Promenade Shoulders.jpg">
+                                <img src="static/images/Promenade Full.jpg" alt="Picture of Kyle Louw on the Promenade">
                         </picture>
                     </div>
                 </div>
+                
                 <!--Content Info-->
                 <div class="content-info">
                     <section id="about-me">
@@ -64,18 +66,15 @@
                     <section id="skills-section">
                         <h3 id="skills">Skills</h3>
                         <div class="logoContainer">
-                            <img src="images/html5 logo.jpg" alt="html5 logo" width="150" height="150">
-                            <img src="images/css new logo.png" alt="CSS Logo" width="140" height="140">
-                            <img src="images/JavaScript Logo.jpg" alt="JavaScript Logo" width="180" height="150">
-                            <img src="images/python logo.png" alt="Python Logo" width="150" height="150">
+                            <img src="static/images/html5 logo.jpg" alt="html5 logo" width="150" height="150">
+                            <img src="static/images/css new logo.png" alt="CSS Logo" width="140" height="140">
+                            <img src="static/images/JavaScript Logo.jpg" alt="JavaScript Logo" width="180" height="150">
+                            <img src="static/images/python logo.png" alt="Python Logo" width="150" height="150">
                         </div>
-          
-
-
                     </section>
-                    <section id="experience-section">
+                    <section id="experience-section" >
                     <h3 id="experience">Experience</h3>
-                        <div class="inline-flex" >
+                        <div class="inline-flex">
                                 <b class="min-width">2017 - Present</b>
                                 <ul class="ex-list">
                                     <li>Services Consultant at Capitec Bank</li>
@@ -141,15 +140,16 @@
                     </section>
                 </div>
             </div>
-            <!--Footer Section-->
-            <footer>
-                <div>
-                    <h3 id="contact-me">Contact Me</h3>
-                    <a href="tel:+27829741127" target="_blank" alt="Phone Icon"><img src="images/icons8-phone-100.png" width="45"></a>
-                    <a href="mailto:klouw07@gmail.com" target="_blank" alt="Email Icon"><img src="images/icons8-email-64.png" width="45"></a>
-                    <a href="https://www.linkedin.com/" target="_blank" alt="LinkedIn Icon"><img src="images/icons8-linkedin-2-30.png" width="40"></a>
-                    <a href="https://twitter.com/" target="_blank" alt="Twitter Icon"><img src="images/icons8-twitter-squared-24.png" width="40"></a>
-                </div>
-            </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+        <!--Footer Section-->
+        <footer>
+            <div>
+                <h3 id="contact-me">Contact Me</h3>
+                <a href="tel:+27829741127" target="_blank" alt="Phone Icon"><img src="static/images/icons8-phone-100.png" width="45"></a>
+                <a href="mailto:klouw07@gmail.com" target="_blank" alt="Email Icon"><img src="static/images/icons8-email-64.png" width="45"></a>
+                <a href="https://www.linkedin.com/" target="_blank" alt="LinkedIn Icon"><img src="static/images/icons8-linkedin-2-30.png" width="40"></a>
+                <a href="https://twitter.com/" target="_blank" alt="Twitter Icon"><img src="static/images/icons8-twitter-squared-24.png" width="40"></a>
+            </div>
+        </footer>
     </body>
 </html>
