@@ -10,7 +10,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     </head>
-    <body class="container">
+    <body>
         <header>
             <hgroup>
                 <h1>Kyle C Louw</h1>
@@ -20,10 +20,11 @@
             <!--Wrapper-->
             <div class="wrapper">
                 <!--Sidebar-->
-                <div class="sidebar">
-                    <!--Profile Image-->
+                <!--
+                <div class="sidebar"
+                    <!--Profile Image--
                     <img src="static/images/Me-min.jpg" alt="Picture of Kyle Louw" class="profile-img">
-                    <!--Menu-->
+                    <!--Menu--
                     <div class="menu">
                         <ul class="list">
                             <li class="list-item"><a href="#about-me" class="menu-item">About</a></li>
@@ -44,8 +45,44 @@
                         </picture>
                     </div>
                 </div>
-                
+                -->
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">Digital Resume</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#about-me">About Me</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#interests">Interest and skills</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              More Content
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="#experience">Experience</a></li>
+                              <li><a class="dropdown-item" href="#education">Education</a></li>
+                              <li><a class="dropdown-item" href="#activities">Additional Activities</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#contact-me">Contact Me</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                        <form class="d-flex">
+                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
                 <!--Content Info-->
+                <img src="static/images/Me-min.jpg" class="rounded float-start" alt="Picture of Kyle Louw" width="100px">
+                <img src="static/images/Promenade Shoulders.jpg" class="rounded float-end" alt="Another Picture of Kyle Louw" width="100px" height="100px">
                 <div class="content-info">
                     <section id="about-me">
                         <div>
