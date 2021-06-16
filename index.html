@@ -17,6 +17,14 @@
             #me{
                 height: 200px;
             }
+            #jumbo{
+                padding-left: 10px;
+            }
+           #prof{
+            clear: both;
+            margin-top: 1%;
+            margin-left: 10px;
+           }
         </style>
     </head>
     <body>
@@ -91,12 +99,20 @@
                   </nav>
                 <!--Content Info-->
                 <img src="static/images/View-min.jpg" class="img-fluid" alt="view" id="view">
+                <div class="jumbotron" id="jumbo">
+                    <h1 class="display-4">Welcome to my Resume</h1>
+                    <p class="lead">I am an aspiring coder/programmer busy learning my trade. As well as being a tireless worker who will do what it takes to acheive set goals I am someone who also does not give up easily. I love sports, gaming and a good book. Lastly I eagerly look forward to being a part of the tech/coding industry as it has been a dream of mine for a while.</p>
+                    <hr class="my-4" id="prof">
+                    <p>If you are happy with what you see and you would like to know more, you can find my contact details below or click to be taken straight there.</p>
+                    <a class="btn btn-primary btn-lg" href="#contact-me" role="button">Click Here</a>
+                </div>
+                <img src="static/images/Me-min.jpg" class="rounded float-start img-fluid" alt="Picture of Kyle Louw" id="prof">
                 <div class="content-info">
-                    <section id="about-me">
+                    <!--<section id="about-me">
                         <div>
-                            <p>I am an aspiring coder/programmer busy learning my trade. As well as being a tireless worker who will do what it takes to acheive set goals I am someone who also does not give up easily. I love sports, gaming and a good book. Lastly I eagerly look forward to being a part of the tech/coding industry as it has been a dream of mine for a while.</p>
+                            <p></p>
                         </div>
-                    </section>
+                    </section>-->
                     <section id="interests-section">
                         <h3 id="interests">Interests</h3>
                         <ul class="list-inline">
@@ -173,7 +189,7 @@
                         </div>
                     </section>
                     <!--Activities Section-->
-                    <section>
+                    <section id="activities-section">
                         <h3 id="activities">Additional Activities</h3>
                         <div>
                             <ul class="list-inline">
@@ -183,33 +199,34 @@
                             </ul>
                         </div>
                     </section>
+                    <div id="carousel-section">                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="static/images/Sunningdale City FC.jpg" class="d-block w-10" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="static/images/Poena and The Bandits.jpg" class="d-block w-10" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="static/images/cortx2.jpg" class="d-block w-10" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                    </div>
                 </div>
-                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="static/images/html5 logo.jpg" class="d-block w-10" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="static/images/CSS Logo.jpg" class="d-block w-10" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="static/images/JavaScript Logo.jpg" class="d-block w-10" alt="...">
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                  </div>
             </div>
         <!--Footer Section-->
         <footer>

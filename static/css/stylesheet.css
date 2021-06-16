@@ -30,10 +30,6 @@ header {
 .profile-img {
   width: 20%;
   border-radius: 50%;
-  margin-left: 10%;
-  margin-right: 20%;
-  margin-top: 20px;
-  margin-bottom: 10px;
   float: right;
 }
 .list {
@@ -69,6 +65,7 @@ section#interests-section,
 section#experience-section {
   clear: both;
 }
+
 .inline-flex {
   display: inline-flex;
   width: 100%;
@@ -129,6 +126,9 @@ a.menu-item:hover {
   .list-item{
     margin-right: 20px;
   }
+  #prof{
+    margin-left: 1%;
+  }
   
 }
 @media screen and (max-width:550px) {
@@ -160,5 +160,14 @@ a.menu-item:hover {
   }
   footer{
     margin-top: 0%;
+  }
+  #prof{
+    margin-left: 2.5%;
+  }
+}
+
+@media screen and(min-width:1466){
+  .wrapper{
+    margin-left: 20%;
   }
 }
