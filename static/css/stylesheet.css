@@ -102,6 +102,19 @@ a.menu-item:hover {
   padding-top: 20px;
 }
 
+@keyframes profile-img {
+  0% {border-radius: 0%;}
+  25% {border-radius: 0%;}
+  50% {border-radius: 50%;}
+  100% {border-radius: 50%;}
+}
+picture > img {
+  animation-name: profile-img;
+  animation-duration: 4s;
+  animation-iteration-count: 4s;
+  animation-direction: alternate-reverse;
+}
+
 @media screen and (max-width:768px) {
   .logoContainer > img{
     width: 60px;
@@ -171,3 +184,4 @@ a.menu-item:hover {
     margin-left: 20%;
   }
 }
+
