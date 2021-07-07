@@ -141,6 +141,7 @@ picture > img {
   }
   #prof{
     margin-left: 1%;
+    width: 70%;
   }
   
 }
@@ -176,15 +177,13 @@ picture > img {
   }
   #prof{
     margin-left: 2.5%;
+    width: 95%;
   }
 }
 
 @media screen and(min-width:1466){
   .wrapper{
     margin-left: 20%;
-  }
-  img .new-pic{
-    width: 50%;
   }
 }
 
