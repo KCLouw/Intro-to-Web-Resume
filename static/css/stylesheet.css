@@ -110,8 +110,8 @@ a.menu-item:hover {
 }
 picture > img {
   animation-name: profile-img;
-  animation-duration: 3s;
-  animation-iteration-count: 2s;
+  animation-duration: 4s;
+  animation-iteration-count: 4s;
   animation-direction: normal;
 }
 
@@ -182,6 +182,9 @@ picture > img {
 @media screen and(min-width:1466){
   .wrapper{
     margin-left: 20%;
+  }
+  img .new-pic{
+    width: 50%;
   }
 }
 
