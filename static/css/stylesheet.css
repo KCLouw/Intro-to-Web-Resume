@@ -103,16 +103,16 @@ a.menu-item:hover {
 }
 
 @keyframes profile-img {
-  0% {border-radius: 0%;}
-  25% {border-radius: 0%;}
-  50% {border-radius: 50%;}
-  100% {border-radius: 50%;}
+  0% {opacity: 0.0;
+  transform: translate(-300%, 0);}
+  
+  100% {opacity: 1.0;}
 }
 picture > img {
   animation-name: profile-img;
-  animation-duration: 4s;
-  animation-iteration-count: 4s;
-  animation-direction: alternate-reverse;
+  animation-duration: 3s;
+  animation-iteration-count: 2s;
+  animation-direction: normal;
 }
 
 @media screen and (max-width:768px) {
