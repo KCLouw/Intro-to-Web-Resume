@@ -66,10 +66,7 @@ section#experience-section {
   clear: both;
 }
 
-.inline-flex {
-  display: inline-flex;
-  width: 100%;
-}
+
 .ex-list {
   margin: 0;
   margin-bottom: 20px;
@@ -181,9 +178,11 @@ picture > img {
   }
 }
 
-@media screen and(min-width:1466){
+@media screen and (max-width:1466){
   .wrapper{
     margin-left: 20%;
   }
+  #prof{
+    width: 100%;
+  }
 }
-
